@@ -1,0 +1,60 @@
+body{
+    background-color:#eaf1f7 !important;
+    padding: 20px;
+}
+.title{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#section1>#state1{
+    margin-bottom: 30px;
+}
+#section1>#state1>#form{
+    height: 20vh;
+    width: 100%;
+    background-color: #ccdbeb !important;
+  
+  background: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0) 0%), linear-gradient(rgb(5, 5, 15) 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right, black 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(black
+   50%, rgba(255, 255, 255, 0) 0%);
+  background-position: top, right, bottom, left;
+  background-repeat: repeat-x, repeat-y;
+  background-size: 10px 1px, 1px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1>#state1>#form>form>input[type="text"],#section1>#state1>#form>form>input[type="email"]{
+    margin-right: 30px;
+    border-radius: 2px;
+    border: 1px solid #9ccbf9;
+    height: 30px;
+
+
+}
+#section1>#state1>#form>form>input[type="submit"]{
+    background-color: #6558F5;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    
+    
+}
+#section1>#state1>#form>form>input::placeholder{
+    color:lightgray;
+}
+#section1>#state2>#userdata>.row.display-flex {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    
+  }
+#section1>#state2>#userdata>.row.display-flex > [class*='col-'] {
+    flex-grow: 1 !important;
+    margin-bottom: 20px;
+  }
+   
+    
+
