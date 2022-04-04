@@ -58,12 +58,19 @@
                  alert("email already exist")
              }
              else{
+               if(userdata.length>20){
+                   alert("userdata is full")
+               }
+               else{
                 var user={fname:fname,lname:lname,email:email}
                 userdata.push(user)
                 window.localStorage.setItem("userdata",JSON.stringify(userdata))
                 alert("user saved")
                 location.reload()
+               }
+                
              }
+
             
                
                  
