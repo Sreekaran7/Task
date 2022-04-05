@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       userdata = JSON.parse(userdata);
       for (i = 0; i < userdata.length; i++) {
         const element =
-          '<div class="col-sm-4"><div class="card card-body" style="width: 20rem"><div class="d-flex justify-content-between"><h4 class="card-title">#' +
+          '<div class="col-sm-4"><div class="card card-body" style="width: 20rem;height: 15rem"><div class="d-flex justify-content-between"><h4 class="card-title">#' +
           (i + 1) +
           '</h4> <h4 class="card-title"><i class="fa fa-trash" onclick="deleteuser(' +
           i +
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       userdata = [user];
       window.localStorage.setItem("userdata", JSON.stringify(userdata));
       alert("user saved");
-    //   location.reload();
+      location.reload();
     } else {
       userdata = JSON.parse(userdata);
       for (i = 0; i < userdata.length; i++) {
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         userdata.push(user);
         window.localStorage.setItem("userdata", JSON.stringify(userdata));
         alert("user saved");
-        // location.reload();
+        location.reload();
       }
     }
   };
