@@ -12,7 +12,7 @@ body{
 #section1>#state1>#form{
     height: 20vh;
     background-color: #DFE6ED  !important;
-  background: linear-gradient(to right,#9EADBA 50%,#9EADBA(0, 0, 0, 0) 0%), linear-gradient(#9EADBA(5, 5, 15) 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right, #9EADBA 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(#9EADBA
+  background: linear-gradient(to right, #9EADBA 50%, rgba(0, 0, 0, 0) 0%), linear-gradient(#9EADBA 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right, #9EADBA 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(#9EADBA
    50%, rgba(255, 255, 255, 0) 0%);
   background-position: top, right, bottom, left;
   background-repeat: repeat-x, repeat-y;
