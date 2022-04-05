@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       console.log(userdata);
       alert("user deleted");
       window.localStorage.setItem("userdata", JSON.stringify(userdata));
-    //   location.reload();
+      location.reload();
     }
   }
   
