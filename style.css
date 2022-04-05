@@ -1,5 +1,5 @@
 body{
-    background-color:#eaf1f7 !important;
+    background-color:#F0F4F7!important;
     padding: 20px;
 }
 .title{
@@ -12,24 +12,24 @@ body{
 #section1>#state1>#form{
     /* height: 20vh; */
     width: 90%;
-    background-color: #ccdbeb !important;
+    background-color: #DFE6ED !important;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
   
-  background: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0) 0%), linear-gradient(rgb(5, 5, 15) 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right, black 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(black
+  background: linear-gradient(to right, #9EADBA 50%, rgba(0, 0, 0, 0) 0%), linear-gradient(rgb(180, 180, 240) 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right,#9EADBA 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(#9EADBA
    50%, rgba(255, 255, 255, 0) 0%);
   background-position: top, right, bottom, left;
   background-repeat: repeat-x, repeat-y;
   background-size: 10px 1px, 1px 10px;
     /* display: flex; */
     /* justify-content:space-between; */
-    background-color: red !important;
+    /* background-color: red !important; */
     /* align-items: center; */
 }
 #user_form{
     width: 90%;
-    background-color: blue;
+    /* background-color: blue; */
     
 }
 #section1>#state1>#form>form>input[type="text"],#section1>#state1>#form>form>input[type="email"]{
