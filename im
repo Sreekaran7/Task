@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slideshow</title>
+<link rel="stylesheet" href="img.css" />
+</head>
+<body>
+
+<h1>Ducati Panigale</h1>
+
+
+<div class="slideshow">
+
+<div class="mySlides fade">
+ 
+  <img src="i3.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="i4.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="i1.jpg" style="width:100%">
+  
+</div>
+<div class="mySlides fade">
+    
+    <img src="i2.jpg" style="width:100%">
+    
+  </div>
+
+</div>
+
+
+
+
+
+<script src="img.js"></script>
+
+</body>
+</html> 
